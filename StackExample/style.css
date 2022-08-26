@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Bitter:ital,wght@0,400;0,800;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Aboreto', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bitter', serif;
+  background-image: url("pexels-photo-479444.jpeg");
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#title {
+  text-align: center;
+  font-size: 70px;
+  color: darkred;
+
+}
+
+#text {
+  width: 350px;
+  height: 45px;
+  border: lpx solid red;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border: 2px solid green;
+  border-radius: 20px;
+  /*kenarlık*/
+  color: rgb(81, 43, 6)
+}
+
+#add {
+  height: 47px;
+  width: 85px;
+  border: lpx solid rgb(3, 83, 3);
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  /*fareyi götürünce tıklanabilir*/
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#add:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#delete {
+  height: 47px;
+  width: 85px;
+  border: lpx solid rgb(3, 83, 3);
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  /*fareyi götürünce tıklanabilir*/
+  background-color: rgb(203, 200, 196);
+  ;
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#delete:active {
+  background-color: rgb(187, 10, 10);
+
+}

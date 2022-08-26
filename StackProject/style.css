@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Bitter:ital,wght@0,400;0,800;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Aboreto', cursive;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bitter', serif;
+  background-color: rgb(198, 198, 203);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  column-gap: 120px;
+  position: absolute;
+  left: 100px;
+  top: 250px;
+
+
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+
+}
+
+#push {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#push:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#pop {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#pop:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#swap {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#swap:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#max {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#max:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#min {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#min:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#reverse {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#reverse:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#fastFill {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#fastfill:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#clean {
+
+  background-color: rgb(158, 10, 59);
+  height: 57px;
+  width: 95px;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  background-color: rgb(203, 200, 196);
+  border-radius: 10px;
+  text-align: center;
+  color: floralwhite;
+}
+
+#clean:active {
+  background-color: rgb(14, 31, 98);
+
+}
+
+#inputValue {
+  height: 57px;
+  width: 95px;
+  color: rgb(156, 4, 54);
+  font-size: 25px;
+
+}
